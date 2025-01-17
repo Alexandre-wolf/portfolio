@@ -1,0 +1,42 @@
+:root {
+  --bs-body-bg: #121212;
+  --bs-body-color: #ffffff;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+.bg-dark {
+  background-color: #1a1a1a !important;
+}
+
+.text-primary {
+  color: #646cff !important;
+}
+
+.btn-primary {
+  background-color: #646cff;
+  border-color: #646cff;
+}
+
+.btn-primary:hover {
+  background-color: #535bf2;
+  border-color: #535bf2;
+}
+
+.btn-outline-primary {
+  color: #646cff;
+  border-color: #646cff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #646cff;
+  border-color: #646cff;
+}
+
+section {
+  scroll-margin-top: 5rem;
+}
