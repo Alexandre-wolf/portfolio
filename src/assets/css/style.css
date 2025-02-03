@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+.exo2 {
+    font-family: 'Exo 2', sans-serif;
+}
+
+#about{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banniere.jpeg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+.about-title{
+    font-size: 48px;
+    color: white;
+}
+
+.about-desc{
+    font-size: 24px;
+    color: white;
+    text-align: justify;
+}

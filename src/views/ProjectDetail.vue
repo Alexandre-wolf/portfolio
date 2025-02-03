@@ -100,8 +100,26 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { computed } from 'vue'
 import { useRoute } from 'vue-router'
+// import Projet1_banniere from '@/assets/img/Projet1_banniere.png';
+// import Projet1_1 from '@/assets/img/Projet1_1.png';
+// import Projet1_2 from '@/assets/img/Projet1_2.png';
+// import Projet2_banniere from '@/assets/img/Projet2_banniere.png';
+import Projet2_1 from '@/assets/img/Projet2_1.png';
+import Projet2_2 from '@/assets/img/Projet2_2.png';
+// import Projet3_banniere from '@/assets/img/Projet3_banniere.png';
+// import Projet3_1 from '@/assets/img/Projet3_1.png';
+// import Projet3_2 from '@/assets/img/Projet3_2.png';
+// import Projet4_banniere from '@/assets/img/Projet4_banniere.png';
+// import Projet4_1 from '@/assets/img/Projet4_1.png';
+// import Projet4_2 from '@/assets/img/Projet4_2.png';
+// import Projet5_banniere from '@/assets/img/Projet5_banniere.png';
+// import Projet5_1 from '@/assets/img/Projet5_1.png';
+// import Projet5_2 from '@/assets/img/Projet5_2.png';
+// import Projet6_banniere from '@/assets/img/Projet6_banniere.png';
+// import Projet6_1 from '@/assets/img/Projet6_1.png';
+// import Projet6_2 from '@/assets/img/Projet6_2.png';
 
 const route = useRoute()
 const projectId = parseInt(route.params.id as string)
@@ -109,30 +127,126 @@ const projectId = parseInt(route.params.id as string)
 const projectsData = [
   {
     id: 1,
-    title: 'Application de Gestion de Tâches',
-    type: 'Projet Solo',
-    mainTechnologies: ['Vue.js', 'Node.js', 'MongoDB'],
-    heroImage: 'https://picsum.photos/seed/1/1920/1080',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    title: 'Les Aventuriers du Rail - Application Java',
+    type: 'Projet Binôme',
+    mainTechnologies: ['Java', 'Algorithmes de graphes'],
+    heroImage: Projet2_1,
+    description: 'Développement d\'une application reprenant le jeu "Les Aventuriers du Rail" en Java. Utilisation de la méthode agile avec un seul Sprint pour développer les algorithmes de résolution de graphe.',
     technologies: [
-      { name: 'Vue.js', icon: 'bi bi-code-slash', description: 'Framework frontend' },
-      { name: 'Node.js', icon: 'bi bi-server', description: 'Backend runtime' },
-      { name: 'MongoDB', icon: 'bi bi-database', description: 'Base de données NoSQL' },
-      { name: 'Express', icon: 'bi bi-diagram-3', description: 'Framework backend' }
+      { name: 'Java', icon: 'bi bi-code-slash', description: 'Langage de programmation utilisé' },
+      { name: 'Algorithmes de graphes', icon: 'bi bi-diagram-3', description: 'Algorithmes pour résoudre des graphes' }
     ],
     gallery: [
-      { url: 'https://picsum.photos/seed/11/800/600', caption: 'Dashboard principal' },
-      { url: 'https://picsum.photos/seed/12/800/600', caption: 'Gestion des tâches' },
-      { url: 'https://picsum.photos/seed/13/800/600', caption: 'Interface mobile' }
+      { url: Projet2_1, caption: 'Interface de jeu' },
+      { url: Projet2_1, caption: 'Démonstration des algorithmes' }
     ],
-    challenges: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    solutions: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
-    results: 'Duis aute irure dolor in reprehenderit in voluptate velit.'
+    challenges: 'Gestion des algorithmes complexes de résolution de graphes.',
+    solutions: 'Utilisation d\'algorithmes optimisés et méthode agile pour atteindre les objectifs en un seul Sprint.',
+    results: 'Création d\'une application fonctionnelle qui réplique le jeu avec des algorithmes de graphes efficaces.'
   },
-  // Add more projects with different seed values for unique images
-]
+  {
+    id: 2,
+    title: 'Les Aventuriers du Rail - Interface JavaFX',
+    type: 'Projet Binôme',
+    mainTechnologies: ['JavaFX', 'Java'],
+    heroImage: Projet2_1,
+    description: 'Développement de l\'interface utilisateur (IHM) pour le jeu "Les Aventuriers du Rail" en JavaFX. Le projet a consisté à concevoir et coder l\'interface graphique de A à Z.',
+    technologies: [
+      { name: 'JavaFX', icon: 'bi bi-code-slash', description: 'Framework pour le développement d\'interfaces graphiques en Java' },
+      { name: 'Java', icon: 'bi bi-server', description: 'Langage de programmation utilisé pour la logique du jeu' }
+    ],
+    gallery: [
+      { url: Projet2_1, caption: 'Développement de l\'interface graphique' },
+      { url: Projet2_2, caption: 'Écran de jeu final' }
+    ],
+    challenges: 'Création d\'une interface utilisateur fluide et fonctionnelle avec un minimum d\'informations sur le rendu du jeu.',
+    solutions: 'Intégration de JavaFX pour créer une interface moderne et interactive, tout en respectant les contraintes de l\'interface initiale.',
+    results: 'Création d\'une interface utilisateur efficace et agréable, intégrée à la logique du jeu.'
+  },
+  {
+    id: 3,
+    title: 'Machine à Sous en PHP',
+    type: 'Projet en Groupe',
+    mainTechnologies: ['PHP', 'HTML/CSS', 'JavaScript'],
+    heroImage: Projet2_1,
+    description: 'Développement d\'une machine à sous avec une maquette sur Figma, suivi par la création de la logique en PHP pour générer les résultats aléatoires, et l\'interface visuelle en HTML/CSS et JavaScript.',
+    technologies: [
+      { name: 'PHP', icon: 'bi bi-code-slash', description: 'Langage pour la logique et la génération des résultats' },
+      { name: 'HTML/CSS', icon: 'bi bi-file-earmark-code', description: 'Technologies pour le développement de l\'interface' },
+      { name: 'JavaScript', icon: 'bi bi-braces', description: 'Utilisé pour les animations et interactions sur l\'interface' }
+    ],
+    gallery: [
+      { url: Projet2_1, caption: 'Interface de la machine à sous' },
+      { url: Projet2_1, caption: 'Génération aléatoire des résultats' }
+    ],
+    challenges: 'Création d\'une logique fiable pour générer les résultats et garantir une expérience de jeu immersive.',
+    solutions: 'Utilisation d\'algorithmes pour garantir l\'aléatoire et d\'une interface moderne et responsive.',
+    results: 'Création d\'une machine à sous fonctionnelle et visuellement attractive avec une logique de jeu stable.'
+  },
+  {
+    id: 4,
+    title: 'Site Ecommerce en PHP',
+    type: 'Projet en Groupe',
+    mainTechnologies: ['PHP', 'HTML/CSS', 'JavaScript'],
+    heroImage: Projet2_1,
+    description: 'Développement d\'un site ecommerce avec gestion des comptes utilisateurs, des paniers, et de l\'historique d\'achats, utilisant PHP, HTML/CSS et JavaScript.',
+    technologies: [
+      { name: 'PHP', icon: 'bi bi-code-slash', description: 'Langage pour le backend du site ecommerce' },
+      { name: 'HTML/CSS', icon: 'bi bi-file-earmark-code', description: 'Utilisé pour la structure et le design du site' },
+      { name: 'JavaScript', icon: 'bi bi-braces', description: 'Interaction dynamique avec l\'utilisateur' }
+    ],
+    gallery: [
+      { url: Projet2_1, caption: 'Page d\'accueil du site ecommerce' },
+      { url: Projet2_1, caption: 'Gestion du panier' }
+    ],
+    challenges: 'Implémentation des fonctionnalités de gestion des utilisateurs et du panier dans un environnement sécurisé.',
+    solutions: 'Utilisation d\'une architecture MVC pour gérer les différentes parties du site ecommerce de manière structurée.',
+    results: 'Création d\'un site ecommerce opérationnel avec un système de gestion de comptes et de panier.'
+  },
+  {
+    id: 5,
+    title: 'Annuaire en ligne avec Symfony',
+    type: 'Projet en Groupe',
+    mainTechnologies: ['PHP', 'Symfony', 'HTML/CSS'],
+    heroImage: Projet2_1,
+    description: 'Création d\'un annuaire en ligne fonctionnel en utilisant le framework Symfony. Le projet avait pour objectif de maîtriser Symfony tout en créant une application pratique.',
+    technologies: [
+      { name: 'Symfony', icon: 'bi bi-code-slash', description: 'Framework PHP utilisé pour développer l\'annuaire' },
+      { name: 'PHP', icon: 'bi bi-server', description: 'Langage de programmation pour la logique backend' },
+      { name: 'HTML/CSS', icon: 'bi bi-file-earmark-code', description: 'Technologies pour la conception de l\'interface' }
+    ],
+    gallery: [
+      { url: Projet2_1, caption: 'Interface de recherche dans l\'annuaire' },
+      { url: Projet2_1, caption: 'Page de profil d\'un utilisateur' }
+    ],
+    challenges: 'Prendre en main Symfony tout en créant une application avec des fonctionnalités de recherche et de gestion d\'utilisateurs.',
+    solutions: 'Exploitation des composants Symfony pour simplifier le développement tout en garantissant la fonctionnalité de l\'annuaire.',
+    results: 'Création d\'un annuaire fonctionnel avec une recherche avancée et une gestion des utilisateurs.'
+  },
+  {
+    id: 6,
+    title: 'Site de Tournois avec API Platform et Vue.js',
+    type: 'Projet en Groupe',
+    mainTechnologies: ['Symfony', 'API Platform', 'Vue.js'],
+    heroImage: Projet2_1,
+    description: 'Développement d\'une API avec API Platform et du frontend avec Vue.js pour un site d\'organisation de tournois, permettant la gestion des organisateurs et des joueurs.',
+    technologies: [
+      { name: 'Symfony', icon: 'bi bi-code-slash', description: 'Framework PHP pour gérer le backend du site' },
+      { name: 'API Platform', icon: 'bi bi-plug', description: 'Outil pour créer des API RESTful facilement' },
+      { name: 'Vue.js', icon: 'bi bi-code-slash', description: 'Framework frontend pour l\'interface utilisateur' }
+    ],
+    gallery: [
+      { url: Projet2_1, caption: 'Gestion des tournois' },
+      { url: Projet2_1, caption: 'Page d\'inscription des joueurs' }
+    ],
+    challenges: 'Développement d\'une API solide et d\'une interface dynamique pour une gestion fluide des tournois.',
+    solutions: 'Utilisation d\'API Platform pour créer une API efficace et de Vue.js pour un frontend réactif.',
+    results: 'Création d\'un site complet pour l\'organisation de tournois, avec gestion des utilisateurs et des événements.'
+  }
+];
 
-const currentProject = computed(() => {
+
+  const currentProject = computed(() => {
   return projectsData.find(p => p.id === projectId) || projectsData[0]
 })
 </script>
