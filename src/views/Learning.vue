@@ -8,29 +8,17 @@
 
       <p>
         <strong>AC31.01 | Choisir et implémenter les architectures adaptées :</strong>
-        Lors du développement de la 
-        <a href="#/projet/3" class="text-info text-decoration-none">Machine à Sous en PHP</a> 
-        et du <a href="#/projet/6" class="text-info text-decoration-none">Site de Tournois avec API Platform et Vue.js</a>, 
-        j’ai dû concevoir des architectures logicielles adaptées. Pour la machine à sous, la structure du code en PHP a été pensée pour garantir 
-        la fiabilité des résultats aléatoires. Pour le site de tournois, nous avons conçu une architecture API REST avec API Platform et séparé 
-        le frontend avec Vue.js, permettant une évolutivité et une meilleure séparation des responsabilités.
+        Pour le projet de la machine à sous, j'ai utilisé un algorithme de pseudo-aléatoire existant que j'ai adapté pour offrir une expérience de gain avantageuse pour le casino. L'algorithme a été conçu pour ne pas être facilement compréhensible et ne repose pas sur des valeurs basées sur le temps, ce qui garantit des résultats uniques même en cas d'exécution simultanée. Pour le projet du Site de Tournois, j'ai choisi d'utiliser API Platform dans Symfony, ce qui nous a permis de bénéficier d'une architecture déjà bien structurée pour développer notre API REST. L'interface Vue.js, qui interagit avec cette API, a été conçue pour garantir une séparation claire entre le backend et le frontend, facilitant ainsi l’évolutivité du projet. Nous avons également intégré des assertions partout dans le code afin d’éviter les erreurs.
       </p>
 
       <p>
         <strong>AC31.02 | Faire évoluer une application existante :</strong>
-        Lors du développement du <a href="#/projet/6" class="text-info text-decoration-none">Site de Tournois</a>, 
-        nous avons d’abord construit l’API indépendamment avant de l’adapter pour fonctionner avec notre interface Vue.js. Cette évolution 
-        a nécessité une restructuration de certaines routes API pour optimiser leur utilisation côté client. En alternance, je travaille sur 
-        l’amélioration continue d’un <strong>logiciel ERP</strong>, en développant de nouvelles fonctionnalités et en optimisant les performances 
-        du code existant.
+        Le projet du Site de Tournois a été réalisé en deux étapes. D’abord, nous avons développé une API avec des routes et la gestion complète des données. Ensuite, nous avons intégré cette API avec une interface Vue.js, ce qui a impliqué une restructuration de certaines routes pour optimiser l’interaction avec le frontend. Parallèlement, en alternance, je travaille sur l’amélioration continue d’un ERP en développant de nouvelles fonctionnalités, comme l'intégration de Google Meet via l'API Google Calendar, et en optimisant les performances de l’application existante.
       </p>
 
       <p>
         <strong>AC31.03 | Intégrer des solutions dans un environnement de production :</strong>
-        Le <a href="#/projet/6" class="text-info text-decoration-none">Site de Tournois</a> a été déployé sur le serveur 
-        de l’IUT en utilisant des commandes SSH et des scripts de base de données. Cette expérience m’a permis de maîtriser la mise en production 
-        d’une application web et la gestion de bases de données distantes. En alternance, j’ai récemment intégré <strong>Google Meet via l’API Google Calendar</strong> 
-        dans notre ERP, nécessitant l’authentification OAuth et la gestion des événements dans un calendrier partagé.
+        Le déploiement du Site de Tournois a été effectué sur un serveur de l’IUT en utilisant SSH et des scripts de base de données pour automatiser le processus. Cela m’a permis de mieux comprendre le processus de mise en production et la gestion de bases de données distantes. Dans le cadre de mon alternance, l’intégration de Google Meet dans notre ERP a constitué un défi technique intéressant, nécessitant l’utilisation de l'API Google Calendar. Cette intégration a permis de générer automatiquement des événements sur le calendrier partagé de l'ERP, et j'ai dû m'assurer que l’authentification OAuth soit correctement mise en place pour garantir la sécurité de l'accès à ces fonctionnalités.
       </p>
     </div>
 
@@ -40,29 +28,22 @@
 
       <p>
         <strong>AC36.01 | Organiser et partager une veille technologique et informationnelle :</strong>
-        Avec mon équipe, nous avons mis en place une veille technologique en nous abonnant à des ressources sur des sujets clés, 
-        que nous partagions sur Discord et organisions dans un Google Doc. Cette méthode nous a permis d’être réactifs aux évolutions 
-        des technologies utilisées dans nos projets, notamment Vue.js et API Platform.
+        Avec mon équipe, nous avons mis en place une veille technologique pour rester à jour sur des technologies comme Vue.js et API Platform. Nous avons partagé nos trouvailles via Discord et organisé notre documentation dans un Google Doc, ce qui nous a permis d’être réactifs et d’intégrer rapidement les nouvelles informations dans nos projets.
       </p>
 
       <p>
         <strong>AC36.02 | Identifier les enjeux de l’économie de l’innovation numérique :</strong>
-        Cet apprentissage a été moins présent dans mes expériences, mais en alternance, je prends conscience des défis économiques liés 
-        à l’amélioration d’un ERP. Chaque nouvelle intégration, comme Google Meet, doit être évaluée en termes de coût et d’impact sur les utilisateurs.
+        En tant qu’alternant, je n’ai pas encore eu de retour direct concernant l’ERP, mais dans le cadre du projet Noissap, nous avons analysé les impacts économiques d'une réorganisation de SI pour une entreprise fictive. Cela m'a permis de mieux comprendre les enjeux économiques liés à l'intégration de nouvelles fonctionnalités et d’évaluer leur rentabilité.
       </p>
 
       <p>
         <strong>AC36.03 | Guider la conduite du changement informatique au sein d’une organisation :</strong>
-        Lors du projet <a href="#/projet/6" class="text-info text-decoration-none">Site de Tournois</a>, j’ai aidé mes coéquipiers 
-        à prendre en main Vue.js en leur expliquant les concepts de base et les bonnes pratiques. En alternance, l’intégration de Google Meet dans l’ERP 
-        a nécessité d’accompagner les utilisateurs pour qu’ils adoptent cette nouvelle fonctionnalité et comprennent son utilisation au sein du SI.
+        Dans le cadre du projet Site de Tournois, j’ai accompagné mes coéquipiers dans l’adoption de Vue.js, en expliquant les concepts de base et les bonnes pratiques. Lors de l'intégration de Google Meet dans l'ERP, j'ai été impliqué dans l'accompagnement des utilisateurs pour leur permettre de s'adapter à la nouvelle fonctionnalité, notamment par la création de supports et de guides de prise en main.
       </p>
 
       <p>
         <strong>AC36.04 | Accompagner le management de projet informatique :</strong>
-        Nous avons utilisé <strong>GitLab et Notion</strong> pour la gestion des projets en équipe, selon les préférences de chaque groupe. Ces outils 
-        ont facilité la répartition des tâches et le suivi de l’avancement. En alternance, je participe aux décisions sur les évolutions du logiciel ERP, 
-        en apportant mon expertise technique pour orienter les choix de développement.
+        Nous avons utilisé GitLab pour la gestion du code et Notion pour le suivi des tâches, ce qui nous a permis d’organiser efficacement notre travail en équipe. Nous avons aussi eu quelques défis de coordination, notamment lors de la modification de la base de données par un membre de l'équipe, mais nous avons rapidement résolu ce problème en organisant un appel sur Discord avec partage d'écran pour nous mettre d'accord sur la structure de la base de données.
       </p>
     </div>
 
@@ -72,22 +53,17 @@
 
       <p>
         <strong>AC35.01 | Mesurer les impacts économiques, sociétaux et technologiques d’un projet informatique :</strong>
-        Lors du <strong>TD Noissap</strong> avec Mme Palleja, nous avons analysé la réorganisation d’un SI pour une entreprise de voyage, 
-        ce qui m’a permis de comprendre l’importance des impacts économiques et technologiques d’un projet informatique. En alternance, 
-        chaque amélioration de l’ERP nécessite une réflexion sur ses bénéfices et coûts pour l’entreprise.
+        Lors du projet Noissap, nous avons étudié la réorganisation d’un SI pour une entreprise de voyage. Cette étude m’a permis de mesurer les impacts économiques, sociaux et technologiques de la réorganisation sur les processus internes. Bien que je n'aie pas encore eu l'opportunité de mesurer l'impact d’une fonctionnalité directement dans l’ERP, chaque nouvelle intégration, comme celle de Google Meet, nécessite une réflexion sur ses bénéfices pour l’entreprise.
       </p>
 
       <p>
         <strong>AC35.02 | Savoir intégrer un projet informatique dans le système d’information d’une organisation :</strong>
-        Cet apprentissage a été moins sollicité directement dans mes projets, mais en alternance, l’intégration de <strong>Google Meet via l’API Google Calendar</strong> 
-        dans notre ERP a demandé une compréhension approfondie du SI existant pour assurer une compatibilité et une transition fluide.
+        Lors de l'intégration de l'API Google Calendar dans l’ERP, j’ai dû comprendre le SI existant afin d’assurer une transition fluide et éviter toute perturbation des processus en place. Cette tâche a nécessité une bonne coordination avec les autres équipes pour garantir que l’intégration s’effectue sans erreurs et de manière harmonieuse avec l’architecture du SI.
       </p>
 
       <p>
         <strong>AC35.03 | Savoir adapter un système d’information :</strong>
-        Lors du <strong>TD Noissap</strong>, nous avons adapté un ERP basé sur Odoo pour le proposer comme solution aux besoins d’une entreprise. 
-        Cette expérience a renforcé ma capacité à analyser un SI et à proposer des ajustements pertinents. En alternance, mon travail quotidien 
-        consiste à améliorer l’ERP en y intégrant de nouvelles fonctionnalités et en optimisant son fonctionnement.
+        Dans le cadre du projet Noissap, nous avons adapté un ERP basé sur Odoo pour le proposer comme solution à une entreprise fictive. Cela m’a permis d’approfondir ma capacité à analyser un SI et à proposer des ajustements en fonction des besoins. En alternance, mon travail sur l'ERP consiste à apporter des améliorations continues, comme l’intégration de nouvelles fonctionnalités et l’optimisation des processus existants.
       </p>
     </div>
   </div>
