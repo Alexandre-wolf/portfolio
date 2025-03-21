@@ -8,8 +8,9 @@
 
       <p>
         <strong>AC31.01 | Choisir et implémenter les architectures adaptées :</strong>
-        Lors du développement de la <router-link to="#/projet/3" class="text-info text-decoration-none">Machine à Sous en PHP</router-link> 
-        et du <router-link to="#/projet/6" class="text-info text-decoration-none">Site de Tournois avec API Platform et Vue.js</router-link>, 
+        Lors du développement de la 
+        <a href="#/projet/3" class="text-info text-decoration-none">Machine à Sous en PHP</a> 
+        et du <a href="#/projet/6" class="text-info text-decoration-none">Site de Tournois avec API Platform et Vue.js</a>, 
         j’ai dû concevoir des architectures logicielles adaptées. Pour la machine à sous, la structure du code en PHP a été pensée pour garantir 
         la fiabilité des résultats aléatoires. Pour le site de tournois, nous avons conçu une architecture API REST avec API Platform et séparé 
         le frontend avec Vue.js, permettant une évolutivité et une meilleure séparation des responsabilités.
@@ -17,7 +18,7 @@
 
       <p>
         <strong>AC31.02 | Faire évoluer une application existante :</strong>
-        Lors du développement du <router-link to="#/projet/6" class="text-info text-decoration-none">Site de Tournois</router-link>, 
+        Lors du développement du <a href="#/projet/6" class="text-info text-decoration-none">Site de Tournois</a>, 
         nous avons d’abord construit l’API indépendamment avant de l’adapter pour fonctionner avec notre interface Vue.js. Cette évolution 
         a nécessité une restructuration de certaines routes API pour optimiser leur utilisation côté client. En alternance, je travaille sur 
         l’amélioration continue d’un <strong>logiciel ERP</strong>, en développant de nouvelles fonctionnalités et en optimisant les performances 
@@ -26,7 +27,7 @@
 
       <p>
         <strong>AC31.03 | Intégrer des solutions dans un environnement de production :</strong>
-        Le <router-link to="#/projet/6" class="text-info text-decoration-none">Site de Tournois</router-link> a été déployé sur le serveur 
+        Le <a href="#/projet/6" class="text-info text-decoration-none">Site de Tournois</a> a été déployé sur le serveur 
         de l’IUT en utilisant des commandes SSH et des scripts de base de données. Cette expérience m’a permis de maîtriser la mise en production 
         d’une application web et la gestion de bases de données distantes. En alternance, j’ai récemment intégré <strong>Google Meet via l’API Google Calendar</strong> 
         dans notre ERP, nécessitant l’authentification OAuth et la gestion des événements dans un calendrier partagé.
@@ -52,7 +53,7 @@
 
       <p>
         <strong>AC36.03 | Guider la conduite du changement informatique au sein d’une organisation :</strong>
-        Lors du projet <router-link to="#/projet/6" class="text-info text-decoration-none">Site de Tournois</router-link>, j’ai aidé mes coéquipiers 
+        Lors du projet <a href="#/projet/6" class="text-info text-decoration-none">Site de Tournois</a>, j’ai aidé mes coéquipiers 
         à prendre en main Vue.js en leur expliquant les concepts de base et les bonnes pratiques. En alternance, l’intégration de Google Meet dans l’ERP 
         a nécessité d’accompagner les utilisateurs pour qu’ils adoptent cette nouvelle fonctionnalité et comprennent son utilisation au sein du SI.
       </p>
